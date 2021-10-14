@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.spider:hover { 
+    transform-origin: left top; 
+margin-top: -10px; 
+margin-left: 20px; 
+transition: margin-left 130ms; 
+transition: margin-top 130ms; 
+box-shadow: 0 10px 90px rgba(0, 0, 0, 0.4); 
+}
+.vdova:hover { 
+    transform-origin: left top; 
+margin-top: -10px; 
+margin-left: 20px; 
+transition: margin-left 130ms; 
+transition: margin-top 130ms; 
+box-shadow: 0 10px 90px rgba(0, 0, 0, 0.4); 
+}
+.america:hover { 
+    transform-origin: left top; 
+margin-top: -10px; 
+margin-left: 20px; 
+transition: margin-left 130ms; 
+transition: margin-top 130ms; 
+box-shadow: 0 10px 90px rgba(0, 0, 0, 0.4); 
+}
+.iron:hover { 
+    transform-origin: left top; 
+margin-top: -10px; 
+margin-left: 20px; 
+transition: margin-left 130ms; 
+transition: margin-top 130ms; 
+box-shadow: 0 10px 90px rgba(0, 0, 0, 0.4); 
+}
+.iron{
+    width: 350px; 
+    height: 200px;
+    background: linear-gradient(to bottom left, #cc0099 0%, #9900ff 100%);
+    border-radius: 20px ;
+}
+.spider{
+    background: linear-gradient( #6699ff 0%, #000066 100%);
+    width: 350px; 
+    height: 200px;
+    border-radius: 20px ;
+}
+.america{
+    width: 350px; 
+    height: 200px;
+    background: linear-gradient(to bottom left, #006600 0%, #ffffff 100%);
+    border-radius: 20px ;
+}
+.vdova{
+    width: 350px; 
+    height: 200px; 
+    background: linear-gradient(to bottom left, #660066 0%, #ff0066 100%);
+    border-radius: 20px ; 
+}
+h1 {
+    margin-left: 200px;
+    color: white;
+    color: transparent;    
+ -webkit-background-clip: text;
+ background-clip: text;
+ background-image: linear-gradient(to right, rgb(77, 194, 230), rgb(135, 236, 236));
+
+}
+
+img {
+    position: absolute;
+    margin-top: -113px;
+}
+.iron_img{
+    margin-top: -90px;
+}
